@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.10.9,aiosqlite==0.17.0,asyncgui==0.5.5,asynckivy==0.5.4,Kivy==2.1.0,kivymd==1.1.1,loguru,Pillow
+requirements = python3,aiosqlite==0.17.0,asyncgui==0.5.5,asynckivy==0.5.4,Kivy==2.1.0,kivymd==1.1.1,loguru,Pillow
 
 
 # (str) Custom source folders for requirements
