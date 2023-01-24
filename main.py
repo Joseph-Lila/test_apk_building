@@ -1,5 +1,6 @@
 import asyncio
 import datetime
+from typing import Any
 
 from kivy.uix.button import Button
 from kivymd.app import MDApp
@@ -8,7 +9,7 @@ from kivymd.app import MDApp
 class KivyApp(MDApp):
     title = 'Task Distributor'
 
-    def build(self):
+    def build(self) -> Any:
         self.theme_cls.theme_style = "Light"
         self.theme_cls.primary_palette = "Purple"
         self.theme_cls.primary_hue = "300"
